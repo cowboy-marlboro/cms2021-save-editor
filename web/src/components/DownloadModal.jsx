@@ -55,6 +55,17 @@ export default function DownloadModal({ onConfirm, onCancel }) {
               </ul>
             </div>
           )}
+
+          <div className="modal-warning">
+            <div className="warning-icon">⚠️</div>
+            <div className="warning-text">
+              <strong>Always backup your files!</strong>
+              <p>
+                If something fails and you don't have a backup, your save may be permanently lost.
+                By using this software, you accept that it is provided as-is with no guarantees.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="modal-footer">

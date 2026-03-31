@@ -1231,3 +1231,39 @@ input:checked + .skill-toggle-slider:before {
     display: none;
   }
 }
+
+.modal-warning {
+  margin-top: 24px;
+  background: rgba(248, 81, 73, 0.08);
+  border: 1px solid rgba(248, 81, 73, 0.25);
+  border-radius: 8px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.warning-icon {
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.warning-text {
+  flex: 1;
+}
+
+.warning-text strong {
+  display: block;
+  font-size: 14px;
+  color: var(--red);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.warning-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #bbb;
+  line-height: 1.5;
+}
