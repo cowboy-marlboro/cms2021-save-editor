@@ -11,5 +11,5 @@ services:
       - /app/node_modules
     environment:
       - NODE_ENV=development
-      - HOST=0.0.0.0          # ← Добавь это
+      - HOST=0.0.0.0
       - PORT=5173
